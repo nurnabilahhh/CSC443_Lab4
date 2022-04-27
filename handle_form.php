@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Feedback</title>
-</head>
+    ad>
 <body>
     <?php #Script handle form
 
@@ -26,14 +25,14 @@
         echo '<p><b> You Forgot to Enter Your Comments! </b></p>';
     }
     if(!(strlen($_POST["email"]) >0)){
-    $_POST["email"] -= null;
+    $_POST["email"] = null;
     echo '<p><b> You Forgot to Enter Your Emails! </b></p>';
     }
-    if (isset($_POST["gender"])){
-        if($_POST["gender"] = 'M'){
+    if(isset($_POST["gender"])){
+        if($_POST["gender"] == 'M'){
             $message = '<b><p>Good Day, Sir </b></p>';
         }
-        if($_POST["gender"] = 'F'){
+        if($_POST["gender"] == 'F'){
             $message = '<b><p>Good Day, Sir </b></p>';
     }
     else{
