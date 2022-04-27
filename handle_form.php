@@ -33,7 +33,7 @@
             $message = '<b><p>Good Day, Sir </b></p>';
         }
         if($_POST["gender"] == 'F'){
-            $message = '<b><p>Good Day, Sir </b></p>';
+            $message = '<b><p>Good Day, Madam </b></p>';
         }
     }
     else{
