@@ -8,6 +8,14 @@
 </head>
 <body>
     <?php #script handle calculator
+    if(isset($source)){
+        if($source == 'calculator.html'){
+            if ((is numeric($quantity))){
+                $total = ($quantity * $price) * ($taxrate +1);
+                $
+            }
+        }
+    }
 
     ?>
 </body>
