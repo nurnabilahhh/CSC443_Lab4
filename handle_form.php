@@ -34,6 +34,7 @@
         }
         if($_POST["gender"] == 'F'){
             $message = '<b><p>Good Day, Sir </b></p>';
+        }
     }
     else{
         $_POST["gender"]=null;
